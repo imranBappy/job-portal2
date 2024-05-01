@@ -9,9 +9,9 @@ export async function s3BucketApiCall(method) {
     const config = {
         bucketName: 'w3storage',
         dirName: method.dir ? `${BASE_DIR}${method.dir}` : `${BASE_DIR}`, 
-        region: 'ap-south-1',
-        accessKeyId: 'AKIA3HVKM6KEHA37LSGC',
-        secretAccessKey: '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',
+        region: process.env.NEXT_PUBLIC_AWS_REGION,
+        accessKeyId: process.env.NEXT_PUBLIC_AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY,
     };
     const ReactS3Client = new S3(config);
     if (method.apiType === 'DELETE') {
