@@ -1,0 +1,17 @@
+.footer_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer_link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_link {
+    font-size: 14px;
+  }
+}

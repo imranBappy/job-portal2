@@ -1,0 +1,28 @@
+/* about us */
+
+@media screen and (max-width: 1525px) {
+    .aboutUs {
+        background-size: contain;
+    }
+}
+
+/* Testimonial Slide */
+.owl-nav {
+    position: absolute;
+    top: 84%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /*   margin-top: -50px !important; */
+}
+
+.owl-nav > button > span {
+    font-size: 60px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .owl-nav {
+        padding: 0px 50px;
+        justify-content: space-between;
+    }
+}

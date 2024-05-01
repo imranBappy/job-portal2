@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    -webkit-animation-timing-function: linear !important;
+    animation-timing-function: linear !important;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.react-multi-carousel-track {
+    margin-bottom: 30px !important;
+}
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+.MuiDataGrid-cell:focus-within {
+    outline: none !important;
+}
+.MuiDataGrid-row:hover {
+    background-color: inherit !important;
+}
+
+/* Google Login Btn */

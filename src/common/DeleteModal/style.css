@@ -1,0 +1,43 @@
+.delete_modal_container {
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .delete_icon {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+  }
+  .delete_modal_content {
+    width: 85%;
+  }
+  .delete_modal_btns {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 3rem;
+    .cancel_btn {
+      font-size: 2rem;
+      border-radius: 0.5rem;
+      background-color: #f8f8f8;
+      border: none;
+      width: 100%;
+      border-radius: 10rem;
+    }
+    .cancel_btn:hover {
+      color: var(--primary);
+      background-color: var(--light_grey);
+    }
+    .address_delete_btn {
+      color: #ff4d4f;
+      width: 100%;
+      background-color: rgba(255, 77, 79, 0.2);
+    }
+    .address_delete_btn:hover {
+      color: #ff4d4f;
+      background-color: rgba(255, 77, 79, 0.3);
+    }
+  }
+}

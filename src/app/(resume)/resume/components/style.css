@@ -1,0 +1,30 @@
+.resume_title_header {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.resume_title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    min-width: 250px;
+}
+@media (max-width: 1100px) {
+    .resume_title_header {
+        gap: 40px;
+    }
+}
+@media (max-width: 1040px) {
+    .resume_title_header {
+        gap: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    .stepper_container {
+        width: 100%;
+    }
+    .resume_title_header {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+}
